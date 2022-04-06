@@ -1,0 +1,9 @@
+# Assignment April 04, 2022, Brenay Howard
+Explain following functions in 5-6 sentences:
+
+1. What is dnorm()?
+The dnorm() function gives the density. It is a function in R that calculates the density function with a mean(μ) and standard deviation(σ) for any value of x, μ, and σ.The dnorm() function takes a vector, mean, sd, and log as arguments and returns the Probability Density Function. This function indicates the probability of observing a measurement with a specific value and thus the integral over the density is always 1.
+2. What is pnorm()?
+The pnorm function gives the Cumulative Distribution Function (CDF) of the Normal distribution in R. The CDF is the probability that the variable X takes a value lower or equal to x given a certain random variable q, and a population mean μ, and the population standard deviation σ. The function pnorm returns the integral from −∞ to q of the pdf of the normal distribution where q s a Z-score. The pnorm function also takes the argument lower.tail. If lower.tail is set equal to FALSE then pnorm returns the integral from q to ∞ of the pdf of the normal distribution. Put simply, pnorm returns the area to the left of a given value x in the normal distribution.
+3. What is qnorm()?
+qnorm gives the quantile function. The quantile function is simply the inverse of the cumulative density function. The quantile function maps from probabilities to values. The function qnorm returns the value of the inverse cumulative density function (cdf) of the normal distribution given a certain random variable p, a population mean μ and population standard deviation σ. Put simply, you can use qnorm to find out what the Z-score is of the pth quantile of the normal distribution.
